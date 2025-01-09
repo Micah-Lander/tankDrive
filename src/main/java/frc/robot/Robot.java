@@ -105,9 +105,10 @@ public class Robot extends TimedRobot {
   public void drivewithJoystick() { 
     //Fix maxspeed
     final double leftDriveSpeed = Controller.getLeftX()* TankDrive.maxSpeed;
-    final double rightDriveSpeed = Controller.getRightX()* TankDrive.maxSpeed;
+    final double rightDriveSpeed = -Controller.getRightX()* TankDrive.maxSpeed;
 
     //check for this!
+    //something
   }
 
 
